@@ -12,9 +12,16 @@
             let computerChoice = computerOptions[Math.floor(Math.random() * computerOptions.length)]
             return(computerChoice);
         }
+
         let computerSelection = getComputerChoice()
+
+        let playerSelection = prompt('Lets play rock paper scissors!','');
         
-        
+        function playRound(playerSelection, computerSelection) {
+            return('We choose ' + computerSelection + ',' + ' you picked ' + playerSelection);
+            
+        }
+
     </script>
 </body>
 </html>
