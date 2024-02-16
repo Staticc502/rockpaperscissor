@@ -1,0 +1,1 @@
+This is my first attempt at creating a game in javascript to test my knowledge of functions and loops.
